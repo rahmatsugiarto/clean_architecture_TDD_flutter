@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../domain/entities/number_trivia.dart';
 
 class TriviaDisplay extends StatelessWidget {

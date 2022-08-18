@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:latihan_clean_architecture/features/number_trivia/presentation/widgets/trivia_display.dart';
+import '../widgets/trivia_display.dart';
 import '../../../../injection_container.dart';
 import '../bloc/number_trivia_bloc.dart';
 import '../widgets/loading_widget.dart';

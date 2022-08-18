@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:latihan_clean_architecture/core/error/exeptions.dart';
+import '../../../../core/error/exeptions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/number_travia_model.dart';
 

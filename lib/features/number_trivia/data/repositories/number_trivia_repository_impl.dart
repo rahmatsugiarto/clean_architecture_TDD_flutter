@@ -1,12 +1,12 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:latihan_clean_architecture/core/error/failures.dart';
-import 'package:latihan_clean_architecture/core/error/exeptions.dart';
-import 'package:latihan_clean_architecture/core/network/network_info.dart';
-import 'package:latihan_clean_architecture/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
-import 'package:latihan_clean_architecture/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
-import 'package:latihan_clean_architecture/features/number_trivia/domain/entities/number_trivia.dart';
-import 'package:latihan_clean_architecture/features/number_trivia/domain/repositories/number_trivia_repository.dart';
+import '../../../../core/error/failures.dart';
+import '../../../../core/error/exeptions.dart';
+import '../../../../core/network/network_info.dart';
+import '../datasources/number_trivia_local_data_source.dart';
+import '../datasources/number_trivia_remote_data_source.dart';
+import '../../domain/entities/number_trivia.dart';
+import '../../domain/repositories/number_trivia_repository.dart';
 import '../models/number_travia_model.dart';
 
 typedef Future<NumberTriviaModel> _ConcreteOrRandomChooser();
